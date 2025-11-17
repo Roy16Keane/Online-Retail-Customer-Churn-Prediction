@@ -151,8 +151,8 @@ A fully interactive streamlit application was deployed containing:
 
 - Behaviour scatter plots
 ## Streamlit app review
-Single Prediction
-Dashboard Preview
+The app live https://online-retail-customer-churn-prediction-2.onrender.com/
+
 ## How to run the project locally
 ### 1. Clone the repo
 git clone https://github.com/Roy16Keane/online-retail-churn.git
