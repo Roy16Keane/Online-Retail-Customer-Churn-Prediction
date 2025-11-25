@@ -31,54 +31,10 @@ Higher customer lifetime value (CLV)
 
 A customer is labelled as churned if they make no purchases during the final 3-month window.
 ### 2. Data Understanding
-Dataset: Online Retail 2010–2011 (UCI)
+------
 
-Transaction-level granularity
-
-Includes:
-
-- InvoiceNo
-
-- CustomerID
-
-- InvoiceDate
-
-- Quantity
-
-- UnitPrice
-
-- Country
-
-- Description
-
-Exploratory Data Analysis (EDA) includes:
-
-✔ Missing values
-
-✔ Country distribution
-
-✔ Daily sales trend
-
-✔ Top products
-
-✔ Correlation heatmaps
-
-✔ RFM histograms
-
-✔ PCA cluster visualisation
 
 ### 3. Data Preparation
-Preprocessing steps include:
-
-- Removing cancelled transactions
-
-- Removing missing CustomerID
-
-- Removing negative quantities
-
-- Creating Sales = Quantity × UnitPrice
-
-- Aggregating at customer level
 
 Creating 6 engineered features:
 | **Feature** | **Description** |
